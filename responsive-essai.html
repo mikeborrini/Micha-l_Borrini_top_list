@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		body{ font-family: system-ui; }
+
+		.row { display: flex; gap: 1rem; }
+		.row > * { flex: 1;}
+		.row{max-width: 1200px; margin: auto;}
+
+
+/*version mobile*/
+
+
+@media(max-width: 640px){
+.row { flex-direction: column;}
+}		
+
+
+
+/* version desktop */
+		/* @media (min-width:640px){
+			.row { display: flex; gap: 1rem; }
+		.row > * { flex: 1;}
+		} */
+
+
+
+
+		/* @media (min-width:666px) {
+			body{background: pink}
+		}
+
+		@media (max-wigth:500px) {
+			body{color:magenta; }
+		} */
+
+
+	</style>
+
+</head>
+<body>
+	
+<div class="row">
+	<div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi cumque voluptate qui expedita quaerat quia, unde, excepturi libero velit omnis quae minima culpa sit explicabo reprehenderit. Ut dolorum quo iste.</div>
+	<div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi cumque voluptate qui expedita quaerat quia, unde, excepturi libero velit omnis quae minima culpa sit explicabo reprehenderit. Ut dolorum quo iste.</div>
+</div>
+
+</body>
+</html>
